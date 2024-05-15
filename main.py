@@ -38,5 +38,6 @@ ID_факультета INT(11) NOT NULL
 )
 ''')
 
+# Сохраняем изменения и закрываем соединение
 connection.commit()
 connection.close()
