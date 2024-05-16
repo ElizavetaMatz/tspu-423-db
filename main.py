@@ -8,15 +8,15 @@ cursor = connection.cursor()
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS Пользователи (
 id INT(11) NOT NULL AUTO_INCREMENT,
-Фамилия VARCHAR(60) NOT NULL,
-Имя VARCHAR(60) NOT NULL,
-Отчество VARCHAR(60), 
-Дата рождения DATE NOT NULL,
-Электронная почта VARCHAR(50) NOT NULL,
-Телефон СHAR(20),
-Форма обучения ENUM("очная", "заочная", "очно-заочная") NOT NULL,
-Статус TINYINT(1) NOT NULL DEFAULT = 1,
-Пароль VARCHAR(32) NOT NULL,
+second_name VARCHAR(60) NOT NULL,
+name VARCHAR(60) NOT NULL,
+father_name VARCHAR(60), 
+birthday DATE NOT NULL,
+email VARCHAR(50) NOT NULL,
+mobile СHAR(20),
+form_of_education ENUM("очная", "заочная", "очно-заочная") NOT NULL,
+status TINYINT(1) NOT NULL DEFAULT = 1,
+password VARCHAR(32) NOT NULL,
 ID_группы INT(11) NOT NULL
 )
 ''')
