@@ -47,200 +47,84 @@ def get_group_by_name(name):
 
 groups = [
     {
-        'group_name': '123',
+        'group_name': '111',
         'faculty_name': 'БХФ',
     },
     {
-        'group_name': '124',
-        'faculty_name': 'БХФ',
-    },
-    {
-        'group_name': '133',
-        'faculty_name': 'БХФ',
-    },
-    {
-        'group_name': '134',
-        'faculty_name': 'БХФ',
-    },
-    {
-        'group_name': '331',
+        'group_name': '222',
         'faculty_name': 'ИФФ',
     },
     {
-        'group_name': '332',
-        'faculty_name': 'ИФФ',
-    },
-    {
-        'group_name': '333',
-        'faculty_name': 'ИФФ',
-    },
-    {
-        'group_name': '335',
-        'faculty_name': 'ИФФ',
-    },
-    {
-        'group_name': '431',
-        'faculty_name': 'ФМФ',
-    },
-    {
-        'group_name': '432',
-        'faculty_name': 'ФМФ',
-    },
-    {
-        'group_name': '421',
-        'faculty_name': 'ФМФ',
-    },
-    {
-        'group_name': '423',
-        'faculty_name': 'ФМФ',
-    },
-    {
-        'group_name': '201',
+        'group_name': '444',
         'faculty_name': 'ИИЯМС',
     },
     {
-        'group_name': '203',
-        'faculty_name': 'ИИЯМС',
-    },
-    {
-        'group_name': '206',
-        'faculty_name': 'ИИЯМС',
-    },
-    {
-        'group_name': '209',
-        'faculty_name': 'ИИЯМС',
-    },
-    {
-        'group_name': '1101',
-        'faculty_name': 'ТЭФ',
-    },
-    {
-        'group_name': '1103',
-        'faculty_name': 'ТЭФ',
-    },
-    {
-        'group_name': '1111',
-        'faculty_name': 'ТЭФ',
-    },
-    {
-        'group_name': '1113',
+        'group_name': '555',
         'faculty_name': 'ТЭФ',
     }
 ]
 
 users = [
-    {
-        'last_name': 'Козырева',
-        'first_name': 'Александра',
-        'fathers_name': 'Олеговна',
-        'birth_date': '26-09-2000',
-        'email': 'kozyreva.a@mail.ru',
-        'phone_number': '',
+    { 
+        'last_name': 'Русина',
+        'first_name': 'Катерина',
+        'fathers_name': 'Андреевна',
+        'birth_date': '26.12.1992',
+        'email': 'KaterinaRusina425@mail.ru',
+        'phone_number': '+7 (955) 226-13-71',
         'form_of_education': 'очная',
         'status': '1',
-        'password': '183492',
-        'group_name': '423',
-    },{
-        'last_name': 'Малахова',
-        'first_name': 'Алёна',
-        'fathers_name': 'Сергеевна',
-        'birth_date': '20-01-2002',
-        'email': 'malahova.a@mail.ru',
-        'phone_number': '8-953-913-48-42',
-        'form_of_education': 'очная',
-        'status': '1',
-        'password': 'paroli123',
-        'group_name': '423',
-    },{
-        'last_name': 'Пионов',
-        'first_name': 'Алексей',
-        'fathers_name': 'Михайлович',
-        'birth_date': '06-07-2001',
-        'email': 'lesha.01@mail.ru',
-        'phone_number': '',
-        'form_of_education': 'заочная',
-        'status': '1',
-        'password': 'qwerty',
-        'group_name': '123',
-    },{
-        'last_name': 'Кирсанов',
-        'first_name': 'Антон',
-        'fathers_name': 'Олегович',
-        'birth_date': '19-04-2001',
-        'email': 'kirsanov.a@mail.ru',
-        'phone_number': '8-960-970-34-70',
-        'form_of_education': 'очная',
-        'status': '1',
-        'password': 'kingantoha',
-        'group_name': '124',
-    },{
-        'last_name': 'Седунова',
-        'first_name': 'Юлия',
-        'fathers_name': 'Александровна',
-        'birth_date': '10-11-2000',
-        'email': 'yulia.s.a@mail.ru',
-        'phone_number': '',
-        'form_of_education': 'заочная',
-        'status': '1',
-        'password': '123454321',
-        'group_name': '133',
-    },{
-        'last_name': 'Твардовская',
-        'first_name': 'Екатерина',
-        'fathers_name': 'Евгеньевна',
-        'birth_date': '18-09-2003',
-        'email': 'ekaterina@mail.ru',
-        'phone_number': '',
-        'form_of_education': 'очная',
-        'status': '1',
-        'password': '4167487',
-        'group_name': '423',
-    },{
-        'last_name': 'Буханцов',
-        'first_name': 'Владислав',
-        'fathers_name': 'Валериевич',
-        'birth_date': '20-02-2002',
-        'email': 'BVV@mail.ru',
-        'phone_number': '8-909-544-17-13',
-        'form_of_education': 'очная',
-        'status': '1',
-        'password': 'FB6734FG',
-        'group_name': '431',
-    },{
-        'last_name': 'Иванов',
-        'first_name': 'Петр',
-        'fathers_name': 'Сергеевич',
-        'birth_date': '03-08-2002',
-        'email': 'ivasha.sergeevich@mail.ru',
-        'phone_number': '',
-        'form_of_education': 'очно-заочная',
-        'status': '0',
-        'password': 'ivanivan2002',
-        'group_name': '201',
-    },{
-        'last_name': 'Петрова',
-        'first_name': 'Елизавета',
-        'fathers_name': 'Петровна',
-        'birth_date': '13-05-2001',
-        'email': 'petrov.a@mail.ru',
-        'phone_number': '8-999-555-05-50',
-        'form_of_education': 'очно-заочная',
-        'status': '0',
-        'password': 'lizapetrova',
-        'group_name': '1101',
-    },{
-        'last_name': 'Яблочная',
-        'first_name': 'Светлана',
-        'fathers_name': 'Анатольевна',
-        'birth_date': '30-12-2003',
-        'email': 'sveta2000.a@mail.ru',
-        'phone_number': '',
-        'form_of_education': 'очная',
-        'status': '1',
-        'password': 'hgf47hrf438',
-        'group_name': '209',
+        'password': '3aTro5jmTydu',
+        'group_name': '111',
     },
-
+    {
+        'last_name': 'Шашков',
+        'first_name': 'Павел',
+        'fathers_name': 'Олегович',
+        'birth_date': '21.06.2001',
+        'email': 'PanfilShashkov679@gmail.com',
+        'phone_number': '+7 (943) 643-54-78',
+        'form_of_education': 'очная',
+        'status': '1',
+        'password': 'bjU7MQno1wvk',
+        'group_name': '222',
+    },
+    {
+        'last_name': 'Лукерин',
+        'first_name': 'Сергей',
+        'fathers_name': 'Федорочив',
+        'birth_date': '12.05.1999',
+        'email': 'SofonLukerin744@yandex.ru',
+        'phone_number': '+7 (989) 273-17-34',
+        'form_of_education': 'заочная',
+        'status': '1',
+        'password': '5XhmOIX6MF3g',
+        'group_name': '333',
+    },
+    {
+        'last_name': 'Войтова',
+        'first_name': 'Арина',
+        'fathers_name': 'Владимировна',
+        'birth_date': '19-09-2001',
+        'email': 'AlinaVoytova497@mail.ru',
+        'phone_number': '+7 (987) 614-62-95',
+        'form_of_education': 'заочная',
+        'status': '1',
+        'password': 'mWBHEmPwfPFN',
+        'group_name': '444',
+    },
+    {
+        'last_name': 'Долгих',
+        'first_name': 'Константин',
+        'fathers_name': 'Максимович',
+        'birth_date': '10-11-2002',
+        'email': 'ArtemGronskiy503.@gmail.com',
+        'phone_number': '+7 (954) 862-51-89',
+        'form_of_education': 'очно-заочная',
+        'status': '1',
+        'password': 'YW8HETiZ9fwE',
+        'group_name': '555',
+    },
 ]
 
 def add_groups():
@@ -266,7 +150,7 @@ def add_users():
 # faculty = get_faculty_by_name('ФМФ')
 
 # if faculty:
-#     faculty = faculty[0]
+# faculty = faculty[0]
 
 # add_group('423', faculty[0])
 # print(faculty)
