@@ -1,0 +1,20 @@
+import sqlite3
+
+connection = sqlite3.connect('my_database.db')
+cursor = connection.cursor()
+
+def get_count_employees():
+    cursor.execute(f'''
+                SELECT dept_name COUNT(emp_no) as employee_count FROM departements 
+                    JOIN employees ON department.dept_no = employees.dept_no
+                GROUP BY dept_name
+                HAVING COUNT(emp_no) > 30 
+        ''')
+
+    return cursor.fetchall()
+
+result = get_count_employees()
+print(result)
+
+connection.commit()
+connection.close() 
