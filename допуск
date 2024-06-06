@@ -1,12 +1,9 @@
 Через SQLite : https://sqliteonline.com/ 
 
-Код 1:
-SELECT *
-FROM employees
-WHERE hire_date >= '1990-01-01'
-AND hire_date <= '1995-12-31';
-
-Код 2:
-SELECT *
-FROM employees
-WHERE hire_date BETWEEN '1990-01-01' AND '1995-12-31';
+SELECT employees.emp_no, employees.first_name, employees.last_name, employees.hire_date, departments.dept_name
+FROM employees 
+JOIN dept_emp ON employees.emp_no = dept_emp.emp_no
+JOIN departments ON dept_emp.dept_no= departments.dept_no
+WHERE employees.hire_date
+BETWEEN '1990-01-01' AND '1995-12-31'
+ORDER BY departments.dept_name;
